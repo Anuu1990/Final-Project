@@ -20,7 +20,7 @@ import matplotlib.dates as mdates
 
 # open file
 my_Electricity_Consumption_url = "https://raw.githubusercontent.com/Anuu1990/Final-Project/refs/heads/main/My_Electricity_Consumption.csv"
-my_sahkon-hinta_url = "https://raw.githubusercontent.com/Anuu1990/Final-Project/refs/heads/main/My_sahkon-hinta-010121-231024.csv"
+my_sahkon_hinta_url = "https://raw.githubusercontent.com/Anuu1990/Final-Project/refs/heads/main/My_sahkon-hinta-010121-231024.csv"
 comsumption_data = pd.read_csv(my_Electricity_Consumption_url, delimiter=';')
 new_price_data = pd.read_csv(
     my_sahkon-hinta_url, delimiter=';')
