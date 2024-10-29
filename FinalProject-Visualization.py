@@ -23,7 +23,7 @@ my_Electricity_Consumption_url = "https://raw.githubusercontent.com/Anuu1990/Fin
 my_sahkon_hinta_url = "https://raw.githubusercontent.com/Anuu1990/Final-Project/refs/heads/main/My_sahkon-hinta-010121-231024.csv"
 comsumption_data = pd.read_csv(my_Electricity_Consumption_url, delimiter=';')
 new_price_data = pd.read_csv(
-    my_sahkon-hinta_url, delimiter=';')
+    my_sahkon_hinta_url, delimiter=';')
 # display(comsumption_data.head())
 # display(new_price_data.head())
 
